@@ -1,0 +1,23 @@
+[build-system]
+build-backend = "cmeel"
+requires = ["cmeel[build]"]
+
+[project]
+dependencies = []
+description = "cmeel distribution for mimalloc, a compact general purpose allocator with excellent performance"
+license = "MIT"
+name = "cmeel-mimalloc"
+requires-python = ">= 3.9"
+version = "3.2.8"
+
+[project.urls]
+homepage = "https://github.com/cmake-wheel/cmeel-mimalloc"
+repository = "https://github.com/cmake-wheel/cmeel-mimalloc.git"
+upstream = "https://github.com/microsoft/mimalloc"
+
+[tool.cmeel]
+has-sitelib = false
+source = "mimalloc"
+
+[tool.tomlsort]
+all = true
