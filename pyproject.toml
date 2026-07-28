@@ -7,8 +7,8 @@ dependencies = []
 description = "cmeel distribution for mimalloc, a compact general purpose allocator with excellent performance"
 license = "MIT"
 name = "cmeel-mimalloc"
-requires-python = ">= 3.9"
-version = "3.2.8"
+requires-python = ">= 3.10"
+version = "3.4.3"
 
 [project.urls]
 homepage = "https://github.com/cmake-wheel/cmeel-mimalloc"
